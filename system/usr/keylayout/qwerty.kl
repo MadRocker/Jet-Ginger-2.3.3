@@ -1,0 +1,12 @@
+key 9	  CALL		WAKE_DROPPED  
+key 249   ENDCALL	WAKE_DROPPED
+key 2     CAMERA 	WAKE_DROPPED #not working
+key 3     CAMERA	WAKE_DROPPED #not working
+key 1     MENU		WAKE_DROPPED
+key 17    BACK		WAKE_DROPPED
+key 11    VOLUME_UP	WAKE	
+key 10	  VOLUME_DOWN	WAKE
+key 19    HOME          WAKE #not working
+
+
+

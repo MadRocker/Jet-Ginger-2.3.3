@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<services>
+<service uid="10024" type="com.android.exchange" />
+<service uid="10013" type="com.google" />
+</services>

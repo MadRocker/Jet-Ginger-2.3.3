@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<long name="OperationScheduler_triggerTimeMillis" value="0" />
+<string name="CheckinService_lastSim">no-sim
+no-imsi</string>
+<string name="CheckinService_lastBuild">generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+unknown
+unknown</string>
+<boolean name="OperationScheduler_enabledState" value="false" />
+</map>

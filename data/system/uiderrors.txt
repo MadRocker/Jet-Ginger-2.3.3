@@ -1,0 +1,14 @@
+2/13/11 8:03 PM: No settings file; creating initial state
+12/31/00 5:00 PM: System package com.android.providers.media has changed from uid: 1000 to 10017; old data erased
+12/31/00 5:00 PM: System package com.google.android.apps.maps has changed from uid: 1000 to 10018; old data erased
+12/31/00 5:00 PM: System package com.android.mms has changed from uid: 1000 to 10016; old data erased
+12/31/00 5:00 PM: System package com.android.inputmethod.latin has changed from uid: 1000 to 10021; old data erased
+12/31/00 5:00 PM: System package com.android.phone has changed from uid: 1000 to 1001; old data erased
+12/31/00 5:00 PM: System package com.android.providers.telephony has changed from uid: 1000 to 1001; old data erased
+12/31/00 5:00 PM: System package com.android.deskclock has changed from uid: 1000 to 10026; old data erased
+12/31/00 5:00 PM: System package com.android.launcher has changed from uid: 1000 to 10020; old data erased
+12/31/00 5:00 PM: System package com.android.email has changed from uid: 1000 to 10024; old data erased
+12/31/00 5:00 PM: System package com.android.providers.userdictionary has changed from uid: 1000 to 10000; old data erased
+12/31/00 5:00 PM: System package com.google.android.gsf has changed from uid: 1000 to 10013; old data erased
+12/31/00 5:00 PM: System package com.android.providers.downloads has changed from uid: 1000 to 10017; old data erased
+12/31/00 5:00 PM: System package com.android.providers.contacts has changed from uid: 1000 to 10000; old data erased

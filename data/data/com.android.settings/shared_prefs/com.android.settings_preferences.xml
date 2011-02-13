@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<boolean name="sound_effects" value="true" />
+<boolean name="auto_time" value="false" />
+<boolean name="24 hour" value="true" />
+<boolean name="allow_mock_location" value="true" />
+<boolean name="haptic_feedback" value="true" />
+<boolean name="keep_screen_on" value="true" />
+<boolean name="location_gps" value="true" />
+<boolean name="lock_sounds" value="true" />
+<string name="date_format"></string>
+<string name="vibrate">always</string>
+<boolean name="enable_adb" value="true" />
+<boolean name="location_network" value="true" />
+<boolean name="dtmf_tone" value="true" />
+</map>

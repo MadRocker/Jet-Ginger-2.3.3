@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+<p pkg="com.android.protips" cl="com.android.protips.ProtipWidget" />
+<p pkg="com.android.music" cl="com.android.music.MediaAppWidgetProvider" />
+<p pkg="com.android.quicksearchbox" cl="com.android.quicksearchbox.SearchWidgetProvider" />
+<h pkg="com.android.launcher" id="400" />
+<g id="4" h="0" p="2" />
+<g id="5" h="0" p="0" />
+<g id="6" h="0" p="1" />
+</gs>

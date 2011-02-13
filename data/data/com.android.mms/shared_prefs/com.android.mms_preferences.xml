@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<boolean name="pref_key_mms_auto_retrieval" value="true" />
+<string name="pref_key_ringtone">content://settings/system/notification_sound</string>
+<string name="pref_key_vibrateWhen">never</string>
+<boolean name="pref_key_enable_notifications" value="true" />
+</map>
