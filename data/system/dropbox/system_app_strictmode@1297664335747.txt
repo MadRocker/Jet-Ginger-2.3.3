@@ -1,0 +1,60 @@
+Process: android.process.acore
+Flags: 0x8be05
+Package: com.android.providers.applications v10 (2.3.3)
+Package: com.android.providers.contacts v10 (2.3.3)
+Package: com.android.providers.userdictionary v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 372142
+Loop-Violation-Number: 1
+Duration-Millis: 1452
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=391 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1345)
+	at android.database.sqlite.SQLiteDatabase.queryWithFactory(SQLiteDatabase.java:1235)
+	at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1189)
+	at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1271)
+	at android.accounts.AccountManagerService.getAccountsByType(AccountManagerService.java:372)
+	at android.accounts.AccountManagerService.getAccounts(AccountManagerService.java:1206)
+	at android.accounts.IAccountManager$Stub.onTransact(IAccountManager.java:94)
+	at android.os.Binder.execTransact(Binder.java:320)
+	at com.android.server.SystemServer.init1(Native Method)
+	at com.android.server.SystemServer.main(SystemServer.java:623)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:1059)
+	at android.os.Parcel.readExceptionCode(Parcel.java:1304)
+	at android.os.Parcel.readException(Parcel.java:1273)
+	at android.accounts.IAccountManager$Stub$Proxy.getAccounts(IAccountManager.java:475)
+	at android.accounts.AccountManager.getAccounts(AccountManager.java:348)
+	at com.android.contacts.ContactsListActivity.isSyncActive(ContactsListActivity.java:989)
+	at com.android.contacts.ContactsListActivity.setEmptyText(ContactsListActivity.java:966)
+	at com.android.contacts.ContactsListActivity.startQuery(ContactsListActivity.java:2382)
+	at com.android.contacts.ContactsListActivity.onResume(ContactsListActivity.java:1068)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1150)
+	at android.app.Activity.performResume(Activity.java:3832)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2110)
+	at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:138)
+	at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:339)
+	at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:654)
+	at android.widget.TabHost.setCurrentTab(TabHost.java:326)
+	at android.widget.TabHost$2.onTabSelectionChanged(TabHost.java:132)
+	at android.widget.TabWidget$TabClickListener.onClick(TabWidget.java:456)
+	at android.view.View.performClick(View.java:2485)
+	at android.view.View$PerformClick.run(View.java:9080)
+	at android.os.Handler.handleCallback(Handler.java:587)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+

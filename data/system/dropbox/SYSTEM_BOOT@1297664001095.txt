@@ -1,0 +1,6 @@
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+Hardware: GT-S8000
+Bootloader: unknown
+Radio: unknown
+Kernel: Linux version 2.6.29 (root@BlackMINI) (gcc version 4.4.0 (GCC) ) #879 Tue Feb 1 14:23:52 CET 2011
+

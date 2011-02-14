@@ -12,19 +12,19 @@ ro.build.type=eng
 ro.build.user=android-build
 ro.build.host=android-mac-sl-4.mtv.corp.google.com
 ro.build.tags=test-keys
-ro.product.model=google_sdk
-ro.product.brand=generic
-ro.product.name=google_sdk
-ro.product.device=generic
-ro.product.board=
+ro.product.model=GT-S8000
+ro.product.brand=GT-S8000
+ro.product.name=GT-S8000
+ro.product.device=GT-S8000
+ro.product.board=GT-S8000
 ro.product.cpu.abi=armeabi
 ro.product.manufacturer=unknown
 ro.product.locale.language=en
 ro.product.locale.region=US
 ro.wifi.channels=
-ro.board.platform=
+ro.board.platform=s3c6410
 # ro.build.product is obsolete; use ro.product.device
-ro.build.product=generic
+ro.build.product=GT-S8000
 # Do not try to parse ro.build.description or .fingerprint
 ro.build.description=google_sdk-eng 2.3.3 GRI34 101070 test-keys
 ro.build.fingerprint=generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
@@ -35,6 +35,14 @@ ro.build.fingerprint=generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
 
 rild.libpath=/system/lib/libreference-ril.so
 rild.libargs=-d /dev/ttyS0
+
+ro.secure=0
+ro.debuggable=1
+persist.service.adb.enable=1
+
+# multitouch support
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=2
 
 #
 # ADDITIONAL_BUILD_PROPERTIES
@@ -47,3 +55,6 @@ xmpp.auto-presence=true
 ro.config.nocheckin=yes
 net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.sf.lcd_density=200
+ro.kernel.android.checkjni=1
+ro.setupwizard.mode=OPTIONAL

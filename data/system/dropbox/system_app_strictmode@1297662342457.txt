@@ -1,0 +1,53 @@
+Process: com.google.process.gapps
+Flags: 0x8be45
+Package: com.google.android.gsf v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 54342
+Loop-Violation-Number: 9
+Duration-Millis: 3938
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at android.database.sqlite.SQLiteStatement.simpleQueryForLong(SQLiteStatement.java:106)
+	at android.database.sqlite.SQLiteDatabase.getVersion(SQLiteDatabase.java:928)
+	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:121)
+	at com.google.android.gsf.subscribedfeeds.AbstractSyncableContentProvider$1.onAccountsUpdated(AbstractSyncableContentProvider.java:176)
+	at android.accounts.AccountManager$11.run(AccountManager.java:1153)
+	at android.os.Handler.handleCallback(Handler.java:587)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.google.process.gapps
+Flags: 0x8be45
+Package: com.google.android.gsf v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 54349
+Loop-Violation-Number: 10
+Duration-Millis: 3931
+
+android.os.StrictMode$StrictModeDiskWriteViolation: policy=135 violation=1
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:732)
+	at android.database.sqlite.SQLiteDatabase.execSQL(SQLiteDatabase.java:1755)
+	at android.database.sqlite.SQLiteDatabase.beginTransactionWithListener(SQLiteDatabase.java:527)
+	at android.database.sqlite.SQLiteDatabase.beginTransaction(SQLiteDatabase.java:481)
+	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:123)
+	at com.google.android.gsf.subscribedfeeds.AbstractSyncableContentProvider$1.onAccountsUpdated(AbstractSyncableContentProvider.java:176)
+	at android.accounts.AccountManager$11.run(AccountManager.java:1153)
+	at android.os.Handler.handleCallback(Handler.java:587)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
