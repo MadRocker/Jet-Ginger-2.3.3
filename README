@@ -1,0 +1,17 @@
+To clone  Jet-Ginger-2.3.3 onto your linux computer use this commands below:
+
+1. Change to you work folder:
+cd ~/JetDroid
+
+2. Write access:
+git clone -n  https://github.com/MadRocker/Jet-Ginger-2.3.3.git
+
+3, Change to Jet-Ginger-2.3.3 folder:
+cd   Jet-Ginger-2.3.3
+git checkout master
+
+Now you should see lots of files in the ~/JetDroid/Jet-Ginger-2.3.3 folder. 
+Enjoy.
+
+This is not a high priority so will update as time permits.
+If you would like to develop / work on this PM me in JetDroid.org forum with your github username.
