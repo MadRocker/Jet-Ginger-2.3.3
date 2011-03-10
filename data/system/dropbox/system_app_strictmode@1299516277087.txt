@@ -1,0 +1,63 @@
+Process: com.android.settings
+Flags: 0x8be45
+Package: com.android.settings v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 195694
+Loop-Violation-Number: 1
+Duration-Millis: 1224
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at dalvik.system.BlockGuard$WrappedFileSystem.open(BlockGuard.java:228)
+	at java.io.FileInputStream.<init>(FileInputStream.java:80)
+	at java.io.FileInputStream.<init>(FileInputStream.java:132)
+	at java.io.FileReader.<init>(FileReader.java:66)
+	at com.android.settings.DeviceInfoSettings.getFormattedKernelVersion(DeviceInfoSettings.java:164)
+	at com.android.settings.DeviceInfoSettings.onCreate(DeviceInfoSettings.java:78)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.settings
+Flags: 0x8be45
+Package: com.android.settings v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 195712
+Loop-Violation-Number: 2
+Duration-Millis: 1206
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at dalvik.system.BlockGuard$WrappedFileSystem.read(BlockGuard.java:164)
+	at java.io.FileInputStream.read(FileInputStream.java:290)
+	at java.io.InputStreamReader.read(InputStreamReader.java:255)
+	at java.io.BufferedReader.fillBuf(BufferedReader.java:128)
+	at java.io.BufferedReader.readLine(BufferedReader.java:357)
+	at com.android.settings.DeviceInfoSettings.getFormattedKernelVersion(DeviceInfoSettings.java:166)
+	at com.android.settings.DeviceInfoSettings.onCreate(DeviceInfoSettings.java:78)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1611)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1663)
+	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:931)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+

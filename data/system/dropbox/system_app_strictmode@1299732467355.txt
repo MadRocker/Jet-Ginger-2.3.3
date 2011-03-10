@@ -1,0 +1,54 @@
+Process: com.android.settings
+Flags: 0x8be45
+Package: com.android.settings v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 251712
+Loop-Violation-Number: 1
+Duration-Millis: 1063
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at dalvik.system.BlockGuard$WrappedFileSystem.open(BlockGuard.java:228)
+	at java.io.FileInputStream.<init>(FileInputStream.java:80)
+	at java.io.FileInputStream.<init>(FileInputStream.java:132)
+	at com.android.settings.applications.RunningProcessesView.readAvailMem(RunningProcessesView.java:339)
+	at com.android.settings.applications.RunningProcessesView.refreshUi(RunningProcessesView.java:377)
+	at com.android.settings.applications.RunningProcessesView.onRefreshUi(RunningProcessesView.java:517)
+	at com.android.settings.applications.RunningState$1.handleMessage(RunningState.java:179)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.settings
+Flags: 0x8be45
+Package: com.android.settings v10 (2.3.3)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 251730
+Loop-Violation-Number: 2
+Duration-Millis: 1045
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at dalvik.system.BlockGuard$WrappedFileSystem.read(BlockGuard.java:164)
+	at java.io.FileInputStream.read(FileInputStream.java:290)
+	at java.io.FileInputStream.read(FileInputStream.java:245)
+	at com.android.settings.applications.RunningProcessesView.readAvailMem(RunningProcessesView.java:340)
+	at com.android.settings.applications.RunningProcessesView.refreshUi(RunningProcessesView.java:377)
+	at com.android.settings.applications.RunningProcessesView.onRefreshUi(RunningProcessesView.java:517)
+	at com.android.settings.applications.RunningState$1.handleMessage(RunningState.java:179)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+

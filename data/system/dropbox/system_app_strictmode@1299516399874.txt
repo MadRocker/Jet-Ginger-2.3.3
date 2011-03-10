@@ -1,0 +1,65 @@
+Process: com.android.deskclock
+Flags: 0x8be45
+Package: com.android.deskclock v202 (2.0.2)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 319539
+Loop-Violation-Number: 1
+Duration-Millis: 197
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1345)
+	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:330)
+	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:280)
+	at com.android.deskclock.AlarmProvider.query(AlarmProvider.java:115)
+	at android.content.ContentProvider$Transport.query(ContentProvider.java:187)
+	at android.content.ContentResolver.query(ContentResolver.java:262)
+	at com.android.deskclock.Alarms.getFilteredAlarmsCursor(Alarms.java:144)
+	at com.android.deskclock.Alarms.disableExpiredAlarms(Alarms.java:318)
+	at com.android.deskclock.AlarmInitReceiver.onReceive(AlarmInitReceiver.java:39)
+	at android.app.ActivityThread.handleReceiver(ActivityThread.java:1794)
+	at android.app.ActivityThread.access$2400(ActivityThread.java:117)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:981)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.deskclock
+Flags: 0x8be45
+Package: com.android.deskclock v202 (2.0.2)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 319636
+Loop-Violation-Number: 2
+Duration-Millis: 100
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1345)
+	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:330)
+	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:280)
+	at com.android.deskclock.AlarmProvider.query(AlarmProvider.java:115)
+	at android.content.ContentProvider$Transport.query(ContentProvider.java:187)
+	at android.content.ContentResolver.query(ContentResolver.java:262)
+	at com.android.deskclock.Alarms.getFilteredAlarmsCursor(Alarms.java:144)
+	at com.android.deskclock.Alarms.calculateNextAlert(Alarms.java:286)
+	at com.android.deskclock.Alarms.setNextAlert(Alarms.java:343)
+	at com.android.deskclock.AlarmInitReceiver.onReceive(AlarmInitReceiver.java:40)
+	at android.app.ActivityThread.handleReceiver(ActivityThread.java:1794)
+	at android.app.ActivityThread.access$2400(ActivityThread.java:117)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:981)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+

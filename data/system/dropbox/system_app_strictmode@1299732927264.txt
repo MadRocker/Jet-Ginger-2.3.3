@@ -1,0 +1,67 @@
+Process: com.android.protips
+Flags: 0x8be45
+Package: com.android.protips v1 (1.0)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 59005
+Loop-Violation-Number: 8
+Duration-Millis: 1572
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at dalvik.system.BlockGuard$WrappedFileSystem.open(BlockGuard.java:228)
+	at java.io.FileInputStream.<init>(FileInputStream.java:80)
+	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:375)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:146)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:146)
+	at com.android.protips.ProtipWidget.setup(ProtipWidget.java:82)
+	at com.android.protips.ProtipWidget.onReceive(ProtipWidget.java:115)
+	at android.app.ActivityThread.handleReceiver(ActivityThread.java:1794)
+	at android.app.ActivityThread.access$2400(ActivityThread.java:117)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:981)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
+Process: com.android.protips
+Flags: 0x8be45
+Package: com.android.protips v1 (1.0)
+Build: generic/google_sdk/generic:2.3.3/GRI34/101070:eng/test-keys
+System-App: true
+Uptime-Millis: 59015
+Loop-Violation-Number: 9
+Duration-Millis: 1562
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=135 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:745)
+	at dalvik.system.BlockGuard$WrappedFileSystem.read(BlockGuard.java:164)
+	at java.io.FileInputStream.read(FileInputStream.java:290)
+	at java.io.FileInputStream.read(FileInputStream.java:245)
+	at org.apache.harmony.xml.ExpatPullParser$ByteDocument.buffer(ExpatPullParser.java:949)
+	at org.apache.harmony.xml.ExpatPullParser$Document.pump(ExpatPullParser.java:748)
+	at org.apache.harmony.xml.ExpatPullParser$Document.dequeue(ExpatPullParser.java:813)
+	at org.apache.harmony.xml.ExpatPullParser.next(ExpatPullParser.java:302)
+	at com.android.internal.util.XmlUtils.readValueXml(XmlUtils.java:675)
+	at com.android.internal.util.XmlUtils.readMapXml(XmlUtils.java:470)
+	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:376)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:146)
+	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:146)
+	at com.android.protips.ProtipWidget.setup(ProtipWidget.java:82)
+	at com.android.protips.ProtipWidget.onReceive(ProtipWidget.java:115)
+	at android.app.ActivityThread.handleReceiver(ActivityThread.java:1794)
+	at android.app.ActivityThread.access$2400(ActivityThread.java:117)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:981)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:123)
+	at android.app.ActivityThread.main(ActivityThread.java:3683)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+	at dalvik.system.NativeStart.main(Native Method)
+
